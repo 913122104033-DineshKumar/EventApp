@@ -115,7 +115,7 @@ const EventDetails = async ({
               </div>
 
               <div className="flex justify-center">
-                <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all transform hover:scale-105">
+                <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition-all transform hover:scale-105" onClick={() => axios}>
                   Get Tickets
                 </Button>
               </div>
